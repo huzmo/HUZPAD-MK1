@@ -1,8 +1,9 @@
 #include "huzpad.h"
 
-int main(){
+void setup() { }
+
+void loop() {
   macropad my_device;
   while(1)
     my_device.read_input();
-  return 0;
 }
